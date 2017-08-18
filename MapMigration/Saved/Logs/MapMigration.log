@@ -1,0 +1,836 @@
+﻿Log file open, 08/18/17 13:46:40
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MapMigration
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1191073313) SRandInit(1191073313).
+LogTaskGraph: Started task graph with 5 named threads and 38 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.730655
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine4/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.18-09.46.42:518][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.18-09.46.42:518][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.18-09.46.42:691][  0]LogInit: Computer: MONSTER
+[2017.08.18-09.46.42:691][  0]LogInit: User: Kompitauri
+[2017.08.18-09.46.42:691][  0]LogInit: CPU Page size=4096, Cores=12
+[2017.08.18-09.46.42:691][  0]LogInit: High frequency timer resolution =3.312633 MHz
+[2017.08.18-09.46.42:691][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.08.18-09.46.42:698][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.18-09.46.42:698][  0]LogMemory: Process Physical Memory: 281.74 MB used, 281.74 MB peak
+[2017.08.18-09.46.42:698][  0]LogMemory: Process Virtual Memory: 281.95 MB used, 281.95 MB peak
+[2017.08.18-09.46.42:698][  0]LogMemory: Physical Memory: 3812.16 MB used,  28862.98 MB free, 32675.14 MB total
+[2017.08.18-09.46.42:698][  0]LogMemory: Virtual Memory: 693.51 MB used,  28862.98 MB free, 134217728.00 MB total
+[2017.08.18-09.46.43:537][  0]LogInit: Using OS detected language (en-US).
+[2017.08.18-09.46.43:537][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.18-09.46.43:754][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.18-09.46.47:883][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.18-09.46.48:556][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4200' (Feature Level 11_0)
+[2017.08.18-09.46.48:556][  0]LogD3D11RHI:       4063/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.18-09.46.48:558][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.18-09.46.48:558][  0]LogD3D11RHI:       0/0/16337 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.18-09.46.48:558][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.18-09.46.48:584][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.18-09.46.48:584][  0]LogD3D11RHI:     GPU DeviceId: 0x11b4 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.18-09.46.48:584][  0]LogWindows: EnumDisplayDevices:
+[2017.08.18-09.46.48:584][  0]LogWindows:    0. 'NVIDIA Quadro K4200' (P:1 D:1)
+[2017.08.18-09.46.48:584][  0]LogWindows:    1. 'NVIDIA Quadro K4200' (P:0 D:1)
+[2017.08.18-09.46.48:584][  0]LogWindows:    2. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.08.18-09.46.48:584][  0]LogWindows:    3. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.08.18-09.46.48:584][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.18-09.46.48:584][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4200
+[2017.08.18-09.46.48:585][  0]LogD3D11RHI:   Driver Version: 385.12 (internal:23.21.13.8512, unified:385.12)
+[2017.08.18-09.46.48:585][  0]LogD3D11RHI:      Driver Date: 7-27-2017
+[2017.08.18-09.46.48:585][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.18-09.46.49:214][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.18-09.46.49:549][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.18-09.46.49:664][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Intermediate/Shaders/WorkingDirectory/4428/).
+[2017.08.18-09.46.49:664][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kompitauri/AppData/Local/Temp/UnrealShaderWorkingDir/7FC056EA427811BF99B3B98BE2C89C2B/'.
+[2017.08.18-09.46.49:666][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.18-09.46.53:542][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.18-09.46.53:577][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.18-09.46.53:611][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.18-09.46.53:644][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.18-09.46.53:727][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.18-09.46.53:761][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.18-09.46.53:794][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.18-09.46.53:828][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.18-09.46.53:856][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.18-09.46.53:935][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.18-09.46.53:968][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.18-09.46.54:001][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.18-09.46.54:035][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.18-09.46.54:068][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.18-09.46.54:100][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.18-09.46.54:166][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.18-09.46.54:166][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.18-09.46.54:190][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.18-09.46.54:326][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.18-09.46.54:347][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.18-09.46.54:379][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.18-09.46.54:412][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.18-09.46.54:445][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.18-09.46.54:481][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.18-09.46.54:481][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.18-09.46.55:692][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.18-09.46.55:985][  0]LogDerivedDataCache: Loaded boot cache 0.29s 103MB C:/Users/Kompitauri/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.18-09.46.55:985][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kompitauri/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.18-09.46.55:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.18-09.46.55:985][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.18-09.46.55:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.18-09.46.55:985][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.18-09.46.56:087][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.18-09.46.56:100][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kompitauri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.18-09.46.56:157][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.18-09.46.56:231][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.18-09.46.56:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.18-09.46.56:363][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.18-09.47.04:826][  0]LogAssetRegistry: FAssetRegistry took 0.0772 seconds to start up
+[2017.08.18-09.47.08:245][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.18-09.47.16:668][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.18-09.47.17:884][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.18-09.47.18:003][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.18-09.47.18:031][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.18-09.47.18:048][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.18-09.47.18:048][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.18-09.47.18:048][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.18-09.47.22:709][  0]LogNetVersion: MapMigration , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 447465383)
+[2017.08.18-09.47.25:240][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.111710 seconds
+[2017.08.18-09.47.25:269][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.18-09.47.25:269][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.18-09.47.25:270][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.18-09.47.25:362][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.18-09.47.58:806][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.18-09.47.58:860][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.18-09.47.59:968][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.18-09.48.00:555][  0]SourceControl: Source control is disabled
+[2017.08.18-09.48.00:555][  0]SourceControl: Source control is disabled
+[2017.08.18-09.48.00:630][  0]SourceControl: Source control is disabled
+[2017.08.18-09.48.00:669][  0]SourceControl: Source control is disabled
+[2017.08.18-09.48.01:443][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.18-09.48.01:622][  0]LogOcInput: OculusInput pre-init called
+[2017.08.18-09.48.02:224][  0]LogEngine: Initializing Engine...
+[2017.08.18-09.48.02:271][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.18-09.48.02:624][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.18-09.48.02:625][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.18-09.48.03:057][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.18-09.48.03:118][  0]LogInit: XAudio2 using 'HP ENVY 32-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.18-09.48.03:167][  0]LogInit: FAudioDevice initialized.
+[2017.08.18-09.48.03:242][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Kompitauri/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.18-09.48.03:287][  0]LogInit: Texture streaming: Enabled
+[2017.08.18-09.48.03:462][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.18-09.48.04:421][  0]LogInit: Transaction tracking system initialized
+[2017.08.18-09.48.07:936][  0]BlueprintLog: New page: Editor Load
+[2017.08.18-09.48.10:070][  0]LocalizationService: Localization service is disabled
+[2017.08.18-09.48.11:758][  0]LogConsoleResponse: Display: 
+[2017.08.18-09.48.13:743][  0]LogAutoReimportManager: Warning: Unable to watch directory C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/ as it doesn't exist.
+[2017.08.18-09.48.13:933][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.18-09.48.13:933][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.18-09.48.14:066][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.18-09.48.19:707][  0]SourceControl: Source control is disabled
+[2017.08.18-09.48.20:266][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/UnrealEngine4/UE_4.17/FeaturePacks/StarterContent.upack)
+[2017.08.18-09.48.20:735][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.08.18-09.48.20:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.08.18-09.48.20:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.08.18-09.48.20:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.08.18-09.48.20:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.08.18-09.48.20:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.08.18-09.48.21:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.08.18-09.48.21:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.08.18-09.48.21:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.08.18-09.48.21:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.08.18-09.48.21:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.08.18-09.48.21:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.08.18-09.48.21:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.08.18-09.48.21:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.08.18-09.48.21:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.08.18-09.48.21:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.08.18-09.48.21:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.08.18-09.48.21:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.08.18-09.48.21:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Fire01.uasset"
+[2017.08.18-09.48.21:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.08.18-09.48.21:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.08.18-09.48.21:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.08.18-09.48.21:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Light01.uasset"
+[2017.08.18-09.48.21:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.08.18-09.48.21:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Light02.uasset"
+[2017.08.18-09.48.21:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.08.18-09.48.21:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.08.18-09.48.21:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.08.18-09.48.21:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.08.18-09.48.21:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.08.18-09.48.21:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.08.18-09.48.21:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.08.18-09.48.21:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.08.18-09.48.21:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.08.18-09.48.21:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Steam01.uasset"
+[2017.08.18-09.48.21:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.08.18-09.48.21:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.08.18-09.48.21:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.08.18-09.48.21:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.08.18-09.48.22:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.08.18-09.48.22:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.08.18-09.48.22:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.08.18-09.48.22:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.08.18-09.48.22:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.08.18-09.48.22:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.08.18-09.48.22:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.08.18-09.48.22:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.08.18-09.48.22:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.08.18-09.48.22:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.08.18-09.48.22:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.08.18-09.48.22:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.08.18-09.48.22:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.08.18-09.48.23:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.08.18-09.48.23:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.08.18-09.48.23:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.08.18-09.48.23:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.08.18-09.48.23:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.08.18-09.48.23:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Maps/StarterMap.umap"
+[2017.08.18-09.48.23:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.08.18-09.48.23:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.08.18-09.48.23:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.08.18-09.48.23:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.08.18-09.48.23:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.08.18-09.48.23:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.08.18-09.48.23:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.08.18-09.48.23:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.08.18-09.48.23:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.08.18-09.48.23:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.08.18-09.48.23:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.08.18-09.48.23:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.08.18-09.48.23:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.08.18-09.48.24:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.08.18-09.48.24:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.08.18-09.48.24:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.08.18-09.48.24:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.08.18-09.48.24:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.08.18-09.48.24:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.08.18-09.48.24:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.08.18-09.48.24:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.08.18-09.48.24:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.08.18-09.48.24:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.08.18-09.48.24:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.08.18-09.48.24:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.08.18-09.48.24:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.08.18-09.48.24:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.08.18-09.48.24:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.08.18-09.48.24:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.08.18-09.48.24:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.08.18-09.48.24:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.08.18-09.48.24:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.08.18-09.48.24:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.08.18-09.48.24:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.08.18-09.48.24:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.08.18-09.48.24:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.08.18-09.48.24:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.08.18-09.48.24:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.08.18-09.48.24:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.08.18-09.48.24:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.08.18-09.48.24:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.08.18-09.48.24:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.08.18-09.48.24:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.08.18-09.48.24:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.08.18-09.48.24:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.08.18-09.48.24:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.08.18-09.48.24:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.08.18-09.48.24:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.08.18-09.48.24:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.08.18-09.48.24:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.08.18-09.48.24:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.08.18-09.48.24:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.08.18-09.48.24:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.08.18-09.48.24:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.08.18-09.48.24:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.08.18-09.48.24:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.08.18-09.48.24:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.08.18-09.48.24:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.08.18-09.48.24:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.08.18-09.48.24:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.08.18-09.48.24:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.08.18-09.48.24:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.08.18-09.48.24:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.08.18-09.48.24:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.08.18-09.48.24:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.08.18-09.48.24:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Door.uasset"
+[2017.08.18-09.48.24:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.08.18-09.48.24:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.08.18-09.48.24:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.08.18-09.48.24:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.08.18-09.48.24:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.08.18-09.48.24:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.08.18-09.48.24:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.08.18-09.48.24:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.08.18-09.48.24:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.08.18-09.48.24:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.08.18-09.48.24:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.08.18-09.48.24:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.08.18-09.48.24:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.08.18-09.48.24:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.08.18-09.48.24:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.08.18-09.48.24:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.08.18-09.48.24:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.08.18-09.48.24:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.08.18-09.48.24:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.08.18-09.48.24:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.08.18-09.48.24:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.08.18-09.48.24:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.08.18-09.48.24:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.08.18-09.48.24:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.08.18-09.48.24:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.08.18-09.48.24:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.08.18-09.48.24:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.08.18-09.48.24:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.08.18-09.48.24:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.08.18-09.48.24:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.08.18-09.48.24:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.08.18-09.48.24:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.08.18-09.48.24:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.08.18-09.48.24:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.08.18-09.48.24:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.08.18-09.48.24:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.08.18-09.48.24:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.08.18-09.48.24:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.08.18-09.48.24:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.08.18-09.48.24:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.08.18-09.48.24:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.08.18-09.48.24:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.08.18-09.48.24:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.08.18-09.48.24:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.08.18-09.48.24:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.08.18-09.48.25:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.08.18-09.48.25:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.08.18-09.48.25:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.08.18-09.48.25:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.08.18-09.48.25:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.08.18-09.48.25:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.08.18-09.48.25:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.08.18-09.48.25:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.08.18-09.48.25:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.08.18-09.48.25:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.08.18-09.48.25:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.08.18-09.48.25:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.08.18-09.48.25:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.08.18-09.48.25:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.08.18-09.48.25:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.08.18-09.48.25:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.08.18-09.48.25:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.08.18-09.48.25:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.08.18-09.48.26:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.08.18-09.48.26:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.08.18-09.48.26:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.08.18-09.48.26:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.08.18-09.48.26:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.08.18-09.48.26:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.08.18-09.48.26:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.08.18-09.48.26:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.08.18-09.48.26:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.08.18-09.48.26:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.08.18-09.48.26:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.08.18-09.48.26:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.08.18-09.48.26:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.08.18-09.48.26:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.08.18-09.48.26:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.08.18-09.48.27:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.08.18-09.48.27:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.08.18-09.48.27:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.08.18-09.48.27:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.08.18-09.48.27:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.08.18-09.48.27:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.08.18-09.48.27:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.08.18-09.48.27:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.08.18-09.48.27:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.08.18-09.48.27:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.08.18-09.48.27:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.08.18-09.48.27:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.08.18-09.48.27:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.08.18-09.48.27:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.08.18-09.48.27:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.08.18-09.48.27:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.08.18-09.48.27:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.08.18-09.48.27:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.08.18-09.48.27:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.08.18-09.48.28:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.08.18-09.48.28:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.08.18-09.48.28:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.08.18-09.48.28:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.08.18-09.48.28:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.08.18-09.48.28:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.08.18-09.48.28:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.08.18-09.48.28:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.08.18-09.48.28:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.08.18-09.48.28:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.08.18-09.48.28:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.08.18-09.48.28:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.08.18-09.48.28:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.08.18-09.48.28:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.08.18-09.48.28:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.08.18-09.48.29:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.08.18-09.48.29:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.08.18-09.48.29:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.08.18-09.48.29:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.08.18-09.48.29:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.08.18-09.48.29:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.08.18-09.48.29:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.08.18-09.48.29:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.08.18-09.48.29:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.08.18-09.48.29:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.08.18-09.48.29:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.08.18-09.48.29:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.08.18-09.48.29:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.08.18-09.48.29:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.08.18-09.48.29:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.08.18-09.48.29:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.08.18-09.48.30:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.08.18-09.48.30:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.08.18-09.48.30:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.08.18-09.48.30:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.08.18-09.48.30:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.08.18-09.48.30:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.08.18-09.48.30:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.08.18-09.48.30:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.08.18-09.48.30:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.08.18-09.48.30:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.08.18-09.48.30:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.08.18-09.48.30:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.08.18-09.48.30:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.08.18-09.48.30:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.08.18-09.48.30:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.08.18-09.48.30:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.08.18-09.48.30:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.08.18-09.48.30:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.08.18-09.48.31:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.08.18-09.48.33:771][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 9 NumSamples 1 (Frame:1).
+[2017.08.18-09.48.34:551][  0]LogSavePackage: Save=58.64ms
+[2017.08.18-09.48.34:551][  0]LogSavePackage: Moving 'C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Saved/Floor_400x4002EF591514437A5DB772F80BB08F999C2.tmp' to 'C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.08.18-09.48.34:581][  0]LogSavePackage: Display: Finished SavePackage C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.08.18-09.48.34:581][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2017.08.18-09.48.34:592][  0]Cmd: MAP LOAD FILE="C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.18-09.48.34:596][  0]LightingResults: New page: Lighting Build
+[2017.08.18-09.48.35:536][  0]MapCheck: New page: Map Check
+[2017.08.18-09.48.35:536][  0]LightingResults: New page: Lighting Build
+[2017.08.18-09.48.37:012][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-09.48.37:327][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.18-09.48.37:414][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.18-09.48.38:309][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 894.938ms to complete.
+[2017.08.18-09.48.38:309][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.723
+[2017.08.18-09.48.39:926][  0]LogCollectionManager: Loaded 0 collections in 0.001328 seconds
+[2017.08.18-09.48.40:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Saved/Collections/' took 0.01s
+[2017.08.18-09.48.40:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/Developers/Kompitauri/Collections/' took 0.01s
+[2017.08.18-09.48.40:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/Collections/' took 0.01s
+[2017.08.18-09.48.40:042][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.18-09.48.40:066][  0]LogContentBrowser: Native class hierarchy populated in 0.0237 seconds. Added 2386 classes and 500 folders.
+[2017.08.18-09.48.40:171][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0109 seconds. Added 0 classes and 0 folders.
+[2017.08.18-09.48.41:235][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.08.18-09.48.41:328][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.18-09.48.41:767][  0]LogSlate: Took 0.014299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.18-09.48.41:792][  0]LogSlate: Took 0.012243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.18-09.48.41:871][  0]LogSlate: Took 0.024160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.18-09.48.42:169][  0]LogRenderer: Reallocating scene render targets to support 1616x872 Format 9 NumSamples 1 (Frame:1).
+[2017.08.18-09.48.42:620][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.18-09.48.42:621][  0]LogLoad: (Engine Initialization) Total time: 127.89 seconds
+[2017.08.18-09.48.42:621][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.18-09.48.42:630][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.18-09.48.42:685][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.18-09.48.42:812][  1]LogAssetRegistry: Asset discovery search completed in 98.0331 seconds
+[2017.08.18-09.48.42:815][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.18-09.48.42:815][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2017.08.18-09.51.14:541][799]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.18-09.51.14:798][800]Cmd: QUIT_EDITOR
+[2017.08.18-09.51.14:955][800]LogExit: Preparing to exit.
+[2017.08.18-09.51.16:169][800]LogExit: Editor shut down
+[2017.08.18-09.51.16:176][800]LogExit: Transaction tracking system shut down
+[2017.08.18-09.51.16:350][800]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.18-09.51.16:350][800]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.18-09.51.16:350][800]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.08.18-09.51.16:350][800]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.08.18-09.51.16:850][800]LogExit: Object subsystem successfully closed.
+[2017.08.18-09.51.16:925][800]LogD3D11RHI: Shutdown
+[2017.08.18-09.51.16:942][800]LogD3D11RHI: CleanupD3DDevice
+[2017.08.18-09.51.17:006][800]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.18-09.51.17:239][800]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.08.18-09.51.17:239][800]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.08.18-09.51.17:239][800]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.08.18-09.51.17:239][800]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine4/UE_4.17/FeaturePacks/' was aborted.
+[2017.08.18-09.51.17:240][800]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.08.18-09.51.17:241][800]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.08.18-09.51.17:241][800]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.08.18-09.51.17:241][800]LogDirectoryWatcher: A directory notification for 'C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/Collections/' was aborted.
+[2017.08.18-09.51.17:241][800]LogDirectoryWatcher: A directory notification for 'C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Content/Developers/Kompitauri/Collections/' was aborted.
+[2017.08.18-09.51.17:241][800]LogDirectoryWatcher: A directory notification for 'C:/Users/Kompitauri/Desktop/repository(dont delete please_/MM/MapMigration/Saved/Collections/' was aborted.
+[2017.08.18-09.51.17:241][800]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.08.18-09.51.17:241][800]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.08.18-09.51.17:241][800]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.08.18-09.51.17:251][800]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.08.18-09.51.17:266][800]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.08.18-09.51.17:267][800]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.08.18-09.51.17:288][800]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.08.18-09.51.17:288][800]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.08.18-09.51.17:288][800]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.08.18-09.51.17:289][800]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.08.18-09.51.17:289][800]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.08.18-09.51.17:289][800]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.08.18-09.51.17:289][800]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.08.18-09.51.17:846][800]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.08.18-09.51.17:846][800]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.08.18-09.51.17:846][800]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.08.18-09.51.17:846][800]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.08.18-09.51.17:846][800]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.08.18-09.51.17:858][800]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.08.18-09.51.17:858][800]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.08.18-09.51.17:858][800]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.08.18-09.51.17:858][800]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.08.18-09.51.17:867][800]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.08.18-09.51.17:867][800]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.08.18-09.51.17:867][800]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.08.18-09.51.17:867][800]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.08.18-09.51.17:867][800]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.08.18-09.51.17:868][800]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.08.18-09.51.17:868][800]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.08.18-09.51.17:868][800]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.08.18-09.51.17:868][800]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.08.18-09.51.17:868][800]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.08.18-09.51.17:876][800]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.08.18-09.51.17:882][800]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.08.18-09.51.17:882][800]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.08.18-09.51.17:899][800]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.08.18-09.51.17:899][800]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.08.18-09.51.17:961][800]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.08.18-09.51.17:961][800]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.08.18-09.51.17:969][800]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.08.18-09.51.17:991][800]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.08.18-09.51.17:991][800]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.08.18-09.51.18:006][800]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.08.18-09.51.18:006][800]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.08.18-09.51.18:020][800]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.08.18-09.51.18:020][800]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.08.18-09.51.18:020][800]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.08.18-09.51.18:020][800]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.08.18-09.51.18:020][800]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.08.18-09.51.18:020][800]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.08.18-09.51.18:037][800]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.08.18-09.51.18:046][800]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.08.18-09.51.18:046][800]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.08.18-09.51.18:046][800]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.08.18-09.51.18:047][800]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.08.18-09.51.18:208][800]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.08.18-09.51.18:219][800]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.08.18-09.51.18:232][800]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.08.18-09.51.18:232][800]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.08.18-09.51.18:251][800]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.08.18-09.51.18:251][800]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.08.18-09.51.18:251][800]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.08.18-09.51.18:251][800]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.08.18-09.51.18:251][800]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.08.18-09.51.18:256][800]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.08.18-09.51.18:259][800]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.08.18-09.51.18:260][800]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.08.18-09.51.18:260][800]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.08.18-09.51.18:260][800]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.08.18-09.51.18:260][800]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.08.18-09.51.18:260][800]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.08.18-09.51.18:261][800]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.08.18-09.51.18:361][800]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.08.18-09.51.18:462][800]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.08.18-09.51.18:462][800]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.08.18-09.51.18:462][800]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.08.18-09.51.18:462][800]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.08.18-09.51.18:462][800]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.08.18-09.51.18:484][800]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.08.18-09.51.18:486][800]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.08.18-09.51.18:486][800]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.08.18-09.51.18:486][800]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.08.18-09.51.18:486][800]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.08.18-09.51.18:486][800]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.08.18-09.51.18:486][800]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.08.18-09.51.18:486][800]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.08.18-09.51.18:497][800]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.08.18-09.51.18:497][800]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.08.18-09.51.18:497][800]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.08.18-09.51.18:497][800]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.08.18-09.51.18:508][800]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.08.18-09.51.18:509][800]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.08.18-09.51.18:509][800]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.08.18-09.51.18:525][800]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.08.18-09.51.18:525][800]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.08.18-09.51.18:525][800]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.08.18-09.51.18:525][800]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.08.18-09.51.18:540][800]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.08.18-09.51.18:555][800]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.08.18-09.51.18:565][800]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.08.18-09.51.18:565][800]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.08.18-09.51.18:581][800]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.08.18-09.51.18:581][800]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.08.18-09.51.18:583][800]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.08.18-09.51.18:592][800]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.08.18-09.51.18:602][800]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.08.18-09.51.18:602][800]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.08.18-09.51.18:618][800]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.08.18-09.51.18:618][800]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.08.18-09.51.18:618][800]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.08.18-09.51.18:618][800]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.08.18-09.51.18:619][800]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.18-09.51.18:656][800]LogDerivedDataCache: Shutdown
+[2017.08.18-09.51.18:656][800]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.18-09.51.18:656][800]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.18-09.51.18:656][800]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.18-09.51.18:667][800]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.18-09.51.18:678][800]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.18-09.51.18:678][800]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.18-09.51.18:690][800]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.18-09.51.18:690][800]LogOnline: Display: Unloading online subsystem: NULL
+[2017.08.18-09.51.18:702][800]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.18-09.51.18:715][800]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.18-09.51.18:715][800]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.18-09.51.18:715][800]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B457418D5-4A47-166A-8445-3D84FC7B1332%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.0-3573198%2B%2B%2BUE4%2BRelease-4.17&UserID=aeb0d48849b87a3ac0053794529e2290%7C63c15fbbedbb4458aa572c808158bdb8%7Cb3d30782-6596-4567-a9cd-5257a8608c57&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.18-09.51.18:715][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.19:216][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.19:718][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.20:218][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.20:718][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.21:218][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.21:719][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.22:219][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.22:720][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.23:220][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.23:720][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.24:221][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.24:721][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.25:222][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.25:723][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.26:223][800]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.18-09.51.26:756][800]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.18-09.51.26:757][800]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.08.18-09.51.26:757][800]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.08.18-09.51.26:757][800]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.08.18-09.51.26:775][800]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.08.18-09.51.26:775][800]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.08.18-09.51.26:775][800]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.08.18-09.51.26:775][800]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.08.18-09.51.26:793][800]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.18-09.51.26:796][800]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.18-09.51.26:803][800]LogExit: Exiting.
+[2017.08.18-09.51.26:813][800]Log file closed, 08/18/17 13:51:26
