@@ -72,7 +72,3 @@ Saved/*
 Intermediate/*
 
 # Cache files for the editor to use
-DerivedDataCache/*
-MapMigration/Intermediate/
-MapMigration/Saved/
-MapMigration/Content/StarterContent/
